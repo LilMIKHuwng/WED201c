@@ -1,0 +1,147 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+}
+.header_left{
+    font-size: 34px;
+    color: green;
+    font-weight: bold;
+    width: 308px;
+}
+
+.header_logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid green;
+    overflow: hidden;
+}
+.header_logo img{
+    width: 100%;
+}
+.header_right{
+    font-size: 34px;
+    color: green;
+    font-weight: bold;
+    width: 308px;
+    text-align: right;
+    padding: 10px;
+}
+.menu{
+    background-color: green;
+}
+.davbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.davbar_link{
+    margin: 0px 34px;
+    padding: 10px;
+}
+.davbar_link a{
+    text-decoration: none;
+    color: white;
+}
+.davbar_link:hover{
+    background-color: black;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.highlight{
+    display: flex;
+    margin: 10px 10px ;
+}
+.highlight_image{
+    width: 30%;
+}
+.highlight_image img{
+    width: 100%;
+}
+
+.highlight_content{
+    width: 50%;
+    margin-left: 20px;
+}
+.highlight_content h2{
+    color: rgb(254, 126, 147);
+    margin-top: 0px;
+}
+
+.highlight_content p{
+    font-weight: bold;
+}
+
+.highlight_content p:nth-child(5){
+    color: rgb(254, 126, 147);
+}
+
+.highlight_content li{
+    font-family: 'Ephesis', 'cursive';
+    color: rgb(0, 153, 255);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.seller{
+    margin-bottom: 40px;
+}
+.seller_title{
+    text-align: center;
+    color: green;
+}
+.seller_list{
+    display: flex;
+    justify-content: space-around;
+}
+.seller_item{
+    margin: 0px 24px;
+    box-shadow: 0px 0px 10px rgb(45, 44, 44);
+    border-radius: 5px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.seller_detail img{
+    width: 80% ;
+
+}
+
+.seller_detail{
+    margin: 10px ;
+    text-align: center;
+}
+
+.seller_detail h3{
+    color: green;
+    font-weight: 600;
+}
+
+.seller_detail p{
+    color: red;
+    font-weight: bold;
+}
+
+.seller_detail div{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 4px;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.footer_content{
+    padding: 10px;
+}

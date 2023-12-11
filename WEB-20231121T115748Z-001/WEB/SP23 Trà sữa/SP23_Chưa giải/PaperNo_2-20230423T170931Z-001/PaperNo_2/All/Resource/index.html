@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>IceCream</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styleindex.css" />
+    <!--Embed CSS here-->
+  </head>
+
+  <body>
+    <div>
+      <!--container-->
+
+      <div class="header">
+        <!--content header-->
+
+        <div class="header_begin">
+          <p>1 cup of ice cream = Thousand words of love</p>
+        </div>
+
+        <div class="header_img">
+          <img src="images/logoice.png" alt="Ice Cream" />
+        </div>
+
+        <div class="header_end">
+          <p>Where love begins</p>
+        </div>
+      </div>
+      <!-- kết thúc header-->
+
+      <div class="menu">
+        <!--content menu-->
+        <ul class="navbar">
+          <li class="navbar_link"><a href="#about">About</a></li>
+          <li class="navbar_link"><a href="#home">Home</a></li>
+          <li class="navbar_link"><a href="#news">Ice Cream Menu</a></li>
+          <li class="navbar_link"><a href="#contact">Milk Tea Menu</a></li>
+          <li class="navbar_link"><a href="#contact">Events</a></li>
+          <li class="navbar_link"><a href="#contact">News</a></li>
+          <li class="navbar_link"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!--kết thúc menu-->
+
+      <div class="banner">
+        <!--content banner-->
+
+        <img src="images/Bannerice01.jpg" alt="Ice Cream" />
+        <img src="images/Bannerice02.jpg" alt="Ice Cream" />
+      </div>
+      <!--kết thúc banner-->
+
+      <div class="highlight">
+        <div class="highlight_img">
+          <!--image product-->
+
+          <img src="images/kemsaurieng.jpg" alt="Durian ice-cream" />
+        </div>
+        <!--kết thúc image product-->
+
+        <div class="highlight_content">
+          <!--detail content-->
+
+          <h2>Durian ice-cream</h2>
+
+          <p>Durian ice cream is a favorite dessert made from durian</p>
+
+          <p>
+            Durian ice cream is both an attractive dessert and at the same time
+            a food that provides us with a lot of energy (about 456 calories)
+          </p>
+
+          <p>8 simple ways to make durian ice cream at home very delicious</p>
+          <ul>
+            <li>How to make durian ice cream with whipping cream</li>
+            <li>How to make durian ice cream without eggs</li>
+            <li>How to make durian ice cream without fresh milk</li>
+            <li>How to make durian ice cream without gelatin</li>
+            <li>How to make durian ice cream with fresh milk</li>
+            <li>How to make green bean durian ice cream</li>
+            <li>How to make chocolate durian ice cream</li>
+            <li>How to make banana durian ice cream</li>
+          </ul>
+        </div>
+      </div>
+      <!--kết thúc detail content-->
+
+      <div style="clear: both"></div>
+
+      <div class="order">
+        <div class="menu-list">
+          <div class="menu-list_header">
+            <div class="menu-list_header_first">IceCream & Milk Tea</div>
+            <div class="menu-list_header_second">
+              ---------------Menu List---------------
+            </div>
+          </div>
+          <div class="menu-list_content">
+            <div class="menu-list_item">
+              <div class="menu-list_item_name">
+                <input type="checkbox" value="2" id="coconut" />
+                <label for="coconut">Coconut cream</label>
+              </div>
+              <div class="menu-list_item_price">2$</div>
+            </div>
+            <div class="menu-list_item">
+              <div class="menu-list_item_name">
+                <input type="checkbox" value="2.5" id="strawberry" />
+                <label for="strawberry">Strawberry ice-cream</label>
+              </div>
+              <div class="menu-list_item_price">2.5$</div>
+            </div>
+            <div class="menu-list_item">
+              <div class="menu-list_item_name">
+                <input type="checkbox" value="3" id="durian" />
+                <label for="durian">Durian ice-cream</label>
+              </div>
+              <div class="menu-list_item_price">3$</div>
+            </div>
+          </div>
+          <button type="button" class="order-button" onclick="Caltotal()">
+            Order
+          </button>
+        </div>
+        <div class="menu-list">
+          <div class="menu-list_header">
+            <div class="menu-list_header_first">Your IceCream & Milk Tea</div>
+            <div class="menu-list_header_second">
+              ---------------Menu List---------------
+            </div>
+          </div>
+          <div class="menu-list_content"></div>
+          <div class="menu-list_footer">
+            Total amount: <span id="total-price"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <!--content footer-->
+
+        <p>Email : Icecream@gmail.com</p>
+        <p>Address: 100 To Hien Thanh, District 10, HCMC</p>
+        <h5>&copy; Copyright 2021. IceCream.com</h5>
+      </div>
+      <!-- kết thúc footer-->
+    </div>
+    <!--Kết thúc container-->
+
+    <!--Embed Javascript here-->
+    <script defer src="js/mycode.js"></script>
+  </body>
+</html>
